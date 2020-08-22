@@ -1,0 +1,42 @@
+{
+	"name": "live-cd-wifi-position",
+	"description": "Live vehicle geolocation of Czech Railways trains, taken from the on-board WiFi system.",
+	"version": "1.0.0",
+	"main": "index.js",
+	"files": [
+		"index.js",
+		"example.js"
+	],
+	"keywords": [
+		"cd",
+		"České dráhy",
+		"ceske drahy",
+		"czech",
+		"railways",
+		"wifi",
+		"portal",
+		"cdwifi.cz",
+		"geolocation",
+		"gps"
+	],
+	"author": "Jannis R <mail@jannisr.de>",
+	"homepage": "https://github.com/derhuerst/live-cd-wifi-position",
+	"repository": "derhuerst/live-cd-wifi-position",
+	"bugs": "https://github.com/derhuerst/live-cd-wifi-position/issues",
+	"license": "ISC",
+	"engines": {
+		"node": ">=12"
+	},
+	"dependencies": {
+	},
+	"devDependencies": {
+		"eslint": "^7.3.0",
+		"tap-min": "^2.0.0",
+		"tape": "^5.0.0"
+	},
+	"scripts": {
+		"test": "env NODE_ENV=dev node test.js | tap-min",
+		"lint": "eslint .",
+		"prepublishOnly": "npm test && npm run lint"
+	}
+}
