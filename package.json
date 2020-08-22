@@ -32,11 +32,10 @@
 	},
 	"devDependencies": {
 		"eslint": "^7.3.0",
-		"tap-min": "^2.0.0",
-		"tape": "^5.0.0"
+		"ndjson": "^2.0.0"
 	},
 	"scripts": {
-		"test": "env NODE_ENV=dev node test.js | tap-min",
+		"test": "env NODE_ENV=dev node test.js",
 		"lint": "eslint .",
 		"prepublishOnly": "npm test && npm run lint"
 	}
