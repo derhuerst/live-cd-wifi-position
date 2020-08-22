@@ -28,6 +28,7 @@
 		"node": ">=12"
 	},
 	"dependencies": {
+		"cd-wifi-client": "^1.0.1"
 	},
 	"devDependencies": {
 		"eslint": "^7.3.0",
