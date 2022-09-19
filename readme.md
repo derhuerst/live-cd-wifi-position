@@ -6,8 +6,8 @@
 [![build status](https://api.travis-ci.org/derhuerst/live-cd-wifi-position.svg?branch=master)](https://travis-ci.org/derhuerst/live-cd-wifi-position)
 ![ISC-licensed](https://img.shields.io/github/license/derhuerst/live-cd-wifi-position.svg)
 ![minimum Node.js version](https://img.shields.io/node/v/live-cd-wifi-position.svg)
-[![chat with me on Gitter](https://img.shields.io/badge/chat%20with%20me-on%20gitter-512e92.svg)](https://gitter.im/derhuerst)
 [![support me via GitHub Sponsors](https://img.shields.io/badge/support%20me-donate-fa7664.svg)](https://github.com/sponsors/derhuerst)
+[![chat with me on Twitter](https://img.shields.io/badge/chat%20with%20me-on%20Twitter-1da1f2.svg)](https://twitter.com/derhuerst)
 
 
 ## Installation
@@ -59,6 +59,8 @@ positions.on('data', data => console.log(data))
 - [`cd-wifi-client`](https://github.com/derhuerst/cd-wifi-client) – A client for the WiFi portal of Czech Railways trains.
 - [`wifi-on-ice-position-stream`](https://github.com/derhuerst/wifi-on-ice-position-stream) – A stream of positions of German Railways ICE trains, taken from the on-board WiFi.
 - [`wifi-on-ice-portal-client`](https://github.com/derhuerst/wifi-on-ice-portal-client) – Query information from the WiFi portal in German ICE trains.
+- [`live-icomera-position`](htttps://github.com/derhuerst/live-icomera-position) – Live vehicle geolocation, taken from the on-board Icomera WiFi system.
+- [`live-geomedia-position`](htttps://github.com/derhuerst/live-geomedia-position) – Live vehicle geolocation, taken from the GoMedia on-board WiFi entertainment system.
 
 
 ## Contributing
