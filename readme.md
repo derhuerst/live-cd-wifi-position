@@ -59,13 +59,14 @@ positions.on('data', data => console.log(data))
 - [`cd-wifi-client`](https://github.com/derhuerst/cd-wifi-client) – A client for the WiFi portal of Czech Railways trains.
 - [`wifi-on-ice-position-stream`](https://github.com/derhuerst/wifi-on-ice-position-stream) – A stream of positions of German Railways ICE trains, taken from the on-board WiFi.
 - [`wifi-on-ice-portal-client`](https://github.com/derhuerst/wifi-on-ice-portal-client) – Query information from the WiFi portal in German ICE trains.
+- [`record-ice-movement`](https://github.com/derhuerst/record-ice-movement) – Record the movement of any [ICE](https://en.wikipedia.org/wiki/Intercity-Express) using the on-board WiFi.
 - [`live-icomera-position`](htttps://github.com/derhuerst/live-icomera-position) – Live vehicle geolocation, taken from the on-board Icomera WiFi system.
+- [`record-flixbus-movement`](htttps://github.com/derhuerst/record-flixbus-movement) – Command-line tool to record the movement of a [Flixbus](https://flixbus.de) coach using the on-board WiFi.
 - [`live-gomedia-position`](htttps://github.com/derhuerst/live-gomedia-position) – Live vehicle geolocation, taken from the GoMedia on-board WiFi entertainment system.
 - [`sncf-wifi-portal-client`](https://github.com/derhuerst/sncf-wifi-portal-client) – Query information from the SNCF WiFi portal in French TGV trains.
+- [`record-tgv-movement`](https://github.com/derhuerst/record-tgv-movement) – Record the movement of any [TGV](https://en.wikipedia.org/wiki/TGV) using the [on-board WiFi](https://www.sncf.com/fr/offres-voyageurs/tgv/actualites/connectez-vous-pendant-votre-voyage).
 - [`digital-im-regio-portal-client`](https://github.com/derhuerst/digital-im-regio-portal-client) – Query information from the Digital im Regio portal in German Regio trains.
 - [`portale-regionale-wifi-position`](https://github.com/derhuerst/portale-regionale-wifi-position) – Query information from the *Portale Regionale* WiFi portal in Trenitalia (Italian Railways) trains.
-- [`live-icomera-position`](htttps://github.com/derhuerst/live-icomera-position) – Live vehicle geolocation, taken from the on-board Icomera WiFi system.
-- [`live-gomedia-position`](htttps://github.com/derhuerst/live-gomedia-position) – Live vehicle geolocation, taken from the GoMedia on-board WiFi entertainment system.
 
 
 ## Contributing
